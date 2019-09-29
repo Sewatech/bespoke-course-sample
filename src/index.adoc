@@ -1,0 +1,19 @@
+= Exemple Template
+include::{template_dir}/headers.adoc[]
+// Custom variables
+:xtitle: Exemple Template
+
+include::{template_dir}/start.adoc[]
+
+//=========================================================
+
+include::introduction.adoc[]
+
+include::chapter1.adoc[]
+
+// This whole chapter may be skipped by config
+ifndef::exclude[include::chapter2.adoc[]]
+
+//=========================================================
+
+include::{template_dir}/end.adoc[]

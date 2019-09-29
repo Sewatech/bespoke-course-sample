@@ -1,0 +1,62 @@
+//=========================================================
+[.title.chapter]
+== Chapter 1
+
+[.col-2]
+* Topic 1
+* Topic 2
+* Topic 3
+* Topic 4
+* Topic 5
+* Topic 6
+
+[.cue]
+****
+If the listing of topics is too long, in the title slide of a chapter, we can split it on two columns.
+
+There's no `.grid` here.
+****
+
+
+//=========================================================
+[.small]
+== Skip
+
+* The second line should not appear, as it is marked as `.skip`.
+
+[.skip]
+* Second line (skipped)
+
+[]
+* Third line
+
+[.cue]
+****
+****
+
+
+//=========================================================
+[.skip]
+== Skip
+
+* This slide should not appear
+** Even in the table of content
+** Because it is marked as `.skip`
+
+[.cue]
+****
+****
+
+
+//=========================================================
+[.exclude]
+== Skip
+
+* This slide should not appear
+** Even in the table of content
+** Because it is marked as `.exclude`
+** And `.exclude` is listed in the `$skip-classes` variable
+
+[.cue]
+****
+****

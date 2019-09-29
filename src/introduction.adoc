@@ -1,0 +1,194 @@
+//=========================================================
+[.title.chapter]
+== Introduction
+
+* Sample
+
+[.cue]
+****
+****
+
+
+//=========================================================
+== Regular slide
+
+* Bla
+** Bla bla
+
+[.margin-top-1.margin-bottom-1]
+* Bla
+** Bla `bla`
+
+[source.width-80, subs="verbatim,quotes"]
+----
+public void _code_() {
+    this.*doIt*();
+}
+----
+
+[.cue]
+****
+Some notes
+****
+
+
+//=========================================================
+[.hands-on-full]
+== Hands-on
+
+[.cue]
+****
+
+[.hands-on]
+--
+Here's where I explain the hands-on work.
+
+* Do the first task.
+* Do the second task.
+--
+****
+
+
+//=========================================================
+[]
+== Table
+
+[cols=">1,1,4", caption=""]
+.*A regular asciidoc table*
+|===
+
+|1 | L1 | First line
+
+|2 | L2 | Second line
+
+|... | ... | Etc...
+
+|===
+
+[.cue]
+****
+[cols=">1,1,4", caption=""]
+.*Same table in the notes*
+|===
+
+|1 | L1 | First line
+
+|2 | L2 | Second line
+
+|... | ... | Etc...
+
+|===
+
+****
+
+
+//=========================================================
+[]
+== Image
+
+* Regular & fixed position
+
+[.center]
+image::jar.svg["Jar package", 40%]
+
+[.top-6.right-4]
+image::java.svg["Java logo", 10rem]
+
+[.cue]
+****
+****
+
+
+//=========================================================
+[]
+== Columns
+
+[.grid.col-2]
+--
+* First column
+** With
+** More
+** Text
+
+//
+
+* Second column
+--
+
+[.cue]
+****
+****
+
+
+//=========================================================
+[]
+== Misc
+
+* Admonition paragraph
+
+NOTE: note paragraph
+
+[.margin-top-1]
+TIP: tip paragraph
+
+IMPORTANT: important paragraph
+
+WARNING: warning paragraph
+
+CAUTION: caution paragraph
+
+* Admonition block
+
+[NOTE]
+====
+Note block
+
+With a second paragraph
+====
+
+[TIP.margin-top-1]
+====
+Tip block
+
+With a second paragraph
+====
+
+[.cue]
+****
+
+NOTE: note paragraph
+
+WARNING: inline warning
+****
+
+
+//=========================================================
+[]
+== Misc
+
+* UML
+
+[.uml.margin-top-1.width-40]
+* BigClazz
+** {nbsp} +
+[.underline]#staticMethod()# +
+{nbsp}
+** instanceMethod() : String +
+{nbsp}
+** ...
+
+[.uml.small.margin-top-1.width-30]
+* SmallClazz
+** [.underline]#staticMethod()#
+** instanceMethod() : String
+** ...
+
+[.cue]
+****
+[.uml.small.width-50]
+* SmallCueClazz
+** [.underline]#staticMethod()#
+** instanceMethod() : String
+** ...
+****
+

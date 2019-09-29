@@ -1,0 +1,9 @@
+//=========================================================
+[.title.chapter]
+== Chapter 2
+
+* This chapter should be skipped.
+
+[.cue]
+****
+****

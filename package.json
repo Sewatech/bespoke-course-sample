@@ -1,0 +1,21 @@
+{
+  "name": "zz-module",
+  "version": "1.0.0",
+  "scripts": {
+    "gulp": "gulp",
+    "build": "gulp build",
+    "build-nofoo": "gulp build --skip=foo --debug",
+    "start": "gulp serve",
+    "print": "print-slides $npm_package_name"
+  },
+  "config": {
+    "port": "8001",
+    "skip": "exclude, hide"
+  },
+  "dependencies": {
+    "@sewatech/bespoke-course": "^0.1.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
